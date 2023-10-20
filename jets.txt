@@ -1,0 +1,2 @@
+Cargo, cargo, 100, 10, 100000
+Fight, fighter, 200, 500, 750000
