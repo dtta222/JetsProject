@@ -14,16 +14,16 @@
 
 package com.skilldistillery.jets.entities;
 
-public class FighterJet extends Jet implements CombatReady {
+public class PassengerJet extends Jet {
     // Constructor
-    FighterJet(String model, double speed, int range, long price) {
+    PassengerJet(String model, double speed, int range, long price) {
         super(model, speed, range, price);
     }
 
-    // Override the fly method to display information about the fighter jet
+    // Override the fly method to display information about the passenger jet
     @Override
     public void fly() {
-        // Display details about the fighter jet
+        // Display details about the passenger jet
         System.out.println("\tModel: " + model);
         System.out.printf("\tSpeed: %.2f (MACH) or %.2f (MPH)\n", getSpeedInMach(), speed);
         System.out.printf("\tRange: %d miles\n", range);
@@ -31,13 +31,6 @@ public class FighterJet extends Jet implements CombatReady {
         double flightTime = (double) range / speed;
         System.out.printf("\tThe %s can fly for approximately %.2f hours.\n", model, flightTime);
         System.out.println();
-    }
-
-    // Implement the fight method required by the CombatReady interface
-    @Override
-    public void fight() {
-        // Display a message indicating preparation for combat
-        System.out.printf("\tPreparing to fight: %s%n", model);
     }
 }
 

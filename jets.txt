@@ -1,2 +1,10 @@
-Cargo, cargo, 100, 10, 100000
-Fight, fighter, 200, 500, 750000
+Cargo, Freighter-2000, 120, 800, 150000
+Cargo, HaulMaster-450, 90, 1000, 130000
+Fighter, Thunderstrike-5000, 220, 400, 850000
+Fighter, Starfire-IV, 240, 450, 900000
+Cargo, TransHauler-XL, 110, 700, 140000
+Fighter, NovaGuardian-6, 230, 420, 880000
+Cargo, SkyLifter-300, 95, 950, 125000
+Fighter, FalconElite-III, 250, 480, 920000
+Cargo, MegaCarrier-900, 105, 900, 135000
+Fighter, Aurora-Supreme, 260, 500, 950000
